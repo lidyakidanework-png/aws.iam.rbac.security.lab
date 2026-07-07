@@ -23,6 +23,7 @@ This project demonstrates the implementation of Identity and Access Management s
 The AWS IAM environment was designed to simulate role based access control within a small organization. Individual users were assigned to department specific IAM groups, with permissions based on their job responsibilities. 
 
 | User| Department | IAM Group | Access Level | 
+|-----|------------|-----------|--------------|
 | John | IT        | IT-Admin   | Administrator Access |
 | Alex | Marketing | Marketing | Custome Amazon S3 Read only Policy |
 | Emily | Sales    | Sales     | AWS Managed ReadOnlyAccess | 
