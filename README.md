@@ -12,8 +12,8 @@ This project demonstrates the implementation of Identity and Access Management s
 - Test user permissions to validate access controls
 - Identify and troubleshoot permission issues
 
-7) ##AWS Serces Used
-8) - Amazon Web Services
+ ##AWS Serces Used
+   - Amazon Web Services
    - Identity and Access Management
    - IAM Policies
    - IAM Groups
