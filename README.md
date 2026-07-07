@@ -29,4 +29,4 @@ The AWS IAM environment was designed to simulate role based access control withi
 | Emily | Sales    | Sales     | AWS Managed ReadOnlyAccess | 
 | Mike | Finance   | Finance   | Billing Access | 
 
-This design demonstartes the principle of least privilege by assigning usersonly the permissions required for their role whenever possible. 
+This design demonstartes the principle of least privilege by assigning users only the permissions required for their role whenever possible. 
