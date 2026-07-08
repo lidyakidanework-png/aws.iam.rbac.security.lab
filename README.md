@@ -12,7 +12,7 @@ This project demonstrates the implementation of Identity and Access Management s
 - Test user permissions to validate access controls
 - Identify and troubleshoot permission issues
 
- ## AWS Services Used
+ ## AWS Services Used 
    - Amazon Web Services
    - Identity and Access Management
    - IAM Policies
