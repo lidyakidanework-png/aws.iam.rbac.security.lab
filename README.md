@@ -42,35 +42,60 @@ This design demonstartes the principle of least privilege by assigning users onl
    #### IAM Groups
    ![IAM Users](iam-user-groups.jpg)
 
-  ### 2. Role-Based Access Control (RBAC) Implementation
+ ### 2. Role-Based Access Control (RBAC) Implementation
     
    #### IT Admin Group
    
    #### IT Admin Users
-   it-admin-group-users.jpg
+   ![IAM Users](it-admin-group-users.jpg) 
    #### IT Admin Permissions
-   Screenshot
-
+   ![IAM User](it-admin-group permissions.jpg) 
+    
    #### Marketing Group 
    
    #### Marketing Users 
-   Shot
+   ![IAM Users](marketing-group-user.jpg) 
 
    #### Marketing Permissions
-   shot
+   ![IAM Users](marketing-group-permissions.jpg) 
 
    #### Sales Group 
 
    #### Sales Users
-
+   ![IAM Users](sales-group-users.jpg) 
    #### Sales Permissions
-   shots 
+   ![IAM Users](sales-group-permissions.jpg) 
 
+   #### Finance Group 
+   
    #### Finance Users 
+   ![IAM Users](finance-group-user.jpg) 
+   #### Finance Permission
+   ![IAM Users](finance-group-permissions.jpg) 
 
-   ####
+### 3. Security Controls 
+
+ #### Custom S3 Read-Only Policy 
+   ![IAM Users](s3-read-only-policy.jpg)
    
-   
+ #### MFA Enabled
+   ![IAM Users](mfa-enabled-john.admin.jpg)
+
+### 4. S3 Resource Creation and Permission Testing
+
+ #### S3 Bucket Created 
+ ![IAM Users](s3-bucket-created.jpg)
+ 
+ #### Admin S3 Upload  Success 
+ ![IAM Users](admin-s3-upload-success.jpg)
+ 
+ #### Alex S3 Read Access 
+ ![IAM Users](s3-bucket-created-alex-viewaccessgranted.jpg) 
+ #### Alex Upload Access Denied
+ ![IAM Users](alex-upload-access-denied.jpg)
+ 
+ #### Mike Finance Access Denied
+ ![IAM Users](mike-finance-access-denied.jpg)
 
 ## Testing & Validation 
 (Next) 
