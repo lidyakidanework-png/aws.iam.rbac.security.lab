@@ -91,6 +91,7 @@ This design demonstartes the principle of least privilege by assigning users onl
  
  #### Alex S3 Read Access 
  ![IAM Users](s3-bucket-created-alex-viewaccessgranted.jpg) 
+ 
  #### Alex Upload Access Denied
  ![IAM Users](alex-upload-access-denied.jpg)
  
