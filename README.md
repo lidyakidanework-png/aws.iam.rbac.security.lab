@@ -52,7 +52,7 @@ This design demonstartes the principle of least privilege by assigning users onl
    
    **IT Admin Permissions** 
    
-   ![IAM User](it-admin-group permissions.jpg) 
+   ![IAM Users](it-admin-group-permissions.jpg) 
     
    ### Marketing Group 
    
