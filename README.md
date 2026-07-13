@@ -34,7 +34,7 @@ This design demonstartes the principle of least privilege by assigning users onl
 ## Project Screenshots 
 ### 1. IAM User and Group Structure
 
-   #### IAM Users (screenshots/iam-users.jpg)
+   #### IAM Users (lidyakidanework-png/iam-users.jpg)
    
 
    #### IAM Groups
