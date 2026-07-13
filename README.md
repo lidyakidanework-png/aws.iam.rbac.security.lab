@@ -41,6 +41,35 @@ This design demonstartes the principle of least privilege by assigning users onl
 
    #### IAM Groups
    ![IAM Users](iam-user-groups.jpg)
+
+  ### 2. Role-Based Access Control (RBAC) Implementation
+    
+   #### IT Admin Group
+   
+   #### IT Admin Users
+   it-admin-group-users.jpg
+   #### IT Admin Permissions
+   Screenshot
+
+   #### Marketing Group 
+   
+   #### Marketing Users 
+   Shot
+
+   #### Marketing Permissions
+   shot
+
+   #### Sales Group 
+
+   #### Sales Users
+
+   #### Sales Permissions
+   shots 
+
+   #### Finance Users 
+
+   ####
+   
    
 
 ## Testing & Validation 
