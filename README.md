@@ -30,3 +30,18 @@ The AWS IAM environment was designed to simulate role based access control withi
 | Mike | Finance   | Finance   | Billing Access | 
 
 This design demonstartes the principle of least privilege by assigning users only the permissions required for their role whenever possible. 
+
+## Project Screenshots 
+### 1. IAM User and Group Structure
+
+   #### IAM Users (screenshots/iam-users.jpg)
+   
+
+   #### IAM Groups
+   
+
+## Testing & Validation 
+(Next) 
+
+## Lessons Learned
+(Next) 
