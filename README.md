@@ -109,7 +109,30 @@ This design demonstartes the principle of least privilege by assigning users onl
  ![IAM Users](mike-finance-access-denied.jpg)
 
 ## Testing & Validation 
-(Next) 
 
+ Access permissions were tested by logging in as different IAM users and validatingg that each account could only perform actions allowed by its assigned permissions. 
+
+ | User | Test Performed | Result | 
+ |------|----------------|--------|
+ | John.Admin | Verified administrative access | Successful | 
+ | Alex       | Viewed S3 bucket and attempted upload | Read access successful; upload denied | 
+ | Mike       | Tested finance permissions | Access matched assigned permissions |
+ | Emily      | Tested sales read only permissions | Read only access validated | 
+
+### Key Validation Results 
+
+- Confirmed RBAC by assigning permissions through IAM groups.
+- Verfied least privilege by testing both allowed and denied actions.
+- Confirmed the custom S3 Read Only policy prevented unauthorized uploads.
+- Validated MFA was enabled as an additional security control.
+  
 ## Lessons Learned
-(Next) 
+
+This project provided hands on experiance implementing role based access control RBAC in AWS Identity and Access Management. 
+
+Key takeaways: 
+- Created IAM user and organized them into department based groups.
+- Applied AWS managed policies and a customS3 read only policy following the principle of least privilege.
+- Strengthened account security by enabling multifactor authentication.
+- Validated permissions through real world testing using multiple IAM users.
+- Gained experiance troubleshooting IAM permission behavior and verifying effective access rather than relying solely on policy configuration. 
