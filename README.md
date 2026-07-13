@@ -40,6 +40,7 @@ This design demonstartes the principle of least privilege by assigning users onl
    
 
    #### IAM Groups
+   ![IAM User](iam-user-groups.jpg)
    
 
 ## Testing & Validation 
