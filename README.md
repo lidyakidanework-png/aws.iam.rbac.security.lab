@@ -32,7 +32,7 @@ The AWS IAM environment was designed to simulate role based access control withi
 This design demonstartes the principle of least privilege by assigning users only the permissions required for their role whenever possible. 
 
 ## Project Screenshots 
-### 1. IAM User and Group Structure
+## 1. IAM User and Group Structure
 
    #### IAM Users
    
@@ -42,16 +42,17 @@ This design demonstartes the principle of least privilege by assigning users onl
    #### IAM Groups
    ![IAM Users](iam-user-groups.jpg)
 
- ### 2. Role-Based Access Control (RBAC) Implementation
+ ## 2. Role-Based Access Control (RBAC) Implementation
     
-   #### IT Admin Group
+   ### IT Admin Group
    
    #### IT Admin Users
-   ![IAM Users](it-admin-group-users.jpg) 
+   ![IAM Users](it-admin-group.jpg) 
+   
    #### IT Admin Permissions
    ![IAM User](it-admin-group permissions.jpg) 
     
-   #### Marketing Group 
+   ### Marketing Group 
    
    #### Marketing Users 
    ![IAM Users](marketing-group-user.jpg) 
@@ -59,21 +60,21 @@ This design demonstartes the principle of least privilege by assigning users onl
    #### Marketing Permissions
    ![IAM Users](marketing-group-permissions.jpg) 
 
-   #### Sales Group 
+   ### Sales Group 
 
    #### Sales Users
    ![IAM Users](sales-group-users.jpg) 
    #### Sales Permissions
    ![IAM Users](sales-group-permissions.jpg) 
 
-   #### Finance Group 
+   ### Finance Group 
    
    #### Finance Users 
    ![IAM Users](finance-group-user.jpg) 
    #### Finance Permission
    ![IAM Users](finance-group-permissions.jpg) 
 
-### 3. Security Controls 
+## 3. Security Controls 
 
  #### Custom S3 Read-Only Policy 
    ![IAM Users](s3-read-only-policy.jpg)
@@ -81,7 +82,7 @@ This design demonstartes the principle of least privilege by assigning users onl
  #### MFA Enabled
    ![IAM Users](mfa-enabled-john.admin.jpg)
 
-### 4. S3 Resource Creation and Permission Testing
+## 4. S3 Resource Creation and Permission Testing
 
  #### S3 Bucket Created 
  ![IAM Users](s3-bucket-created.jpg)
